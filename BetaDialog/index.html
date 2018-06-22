@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Beta Dialog</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	
+	
+	<div class="tabs">
+		<button class="tablinks" id="system-button">System</button>
+		<button class="tablinks" id="canvas-button">Canvas</button>
+	</div>
+	
+	<div id="canvasDiv" class="tabcontent">
+		<canvas id="canvas"></canvas>
+		<input type="button" value="Load" id="loading">
+		<h3 id="q1">question:</h3>
+		<h3 id="an1">answer1:</h3>
+		<h3 id="an2">answer2:</h3>
+		<h3 id="an3">answer3:</h3>
+	</div>
+	
+	<div id="systemDiv" class="tabcontent">
+		<div id="controls">
+			<button id="add_player" type="button">Add Player</button>
+		</div>
+		
+		<div id="node_background">
+
+		</div>
+	</div>
+	
+	
+	
+
+	
+	
+	<script src="Classes/Object.js" charset="utf-8"></script>
+	<script src="Classes/Game.js" charset="utf-8"></script>
+	<script src="Classes/Block.js" charset="utf-8"></script>
+	
+	
+	<script src="Scripts/playerBlock.js" charset="utf-8"></script>
+	<script src="Scripts/QA_Block.js" charset="utf-8"></script>	
+	<script src="Scripts/main.js" charset="utf-8"></script>
+	
+</body>
+
+</html>
